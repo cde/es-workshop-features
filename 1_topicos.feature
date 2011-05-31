@@ -1,5 +1,5 @@
 # language: es
-Característica: Indice Topicos
+Característica: Topicos
   Para ver una lista potencial de topicos
   Los usuario deben crear y editar los mismos
 

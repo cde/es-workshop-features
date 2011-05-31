@@ -29,6 +29,11 @@ Capybara.default_selector = :css
 #
 ActionController::Base.allow_rescue = false
 
+
+Before do
+  Topico.create(:titulo=>'Rails Fixtures')
+  puts "hello"
+end
 # Remove/comment out the lines below if your app doesn't have a database.
 # For some databases (like MongoDB and CouchDB) you may need to use :truncation instead.
 begin

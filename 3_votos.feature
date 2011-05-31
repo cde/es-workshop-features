@@ -3,7 +3,7 @@ Característica: Votos
   Para determinar que discurso dar
   Los usuarios deben votar por sus favoritos topicos.
 
-  Historia: Asegurarse que el topico existe
+  Background: Asegurarse que el topico existe
     Dado que estoy en topicos
     Y hago click en "New Topic"
     Y completo "Titulo" con "Rails Fixtures"
@@ -16,6 +16,5 @@ Característica: Votos
 
   Escenario: Votando un topico
     Cuando visito topicos
-    Entonces muestrame la pagina
     Y hago click en "+1"
-    Entonces deberia ver "1 vote"
+    Entonces deberia ver "1 voto"
